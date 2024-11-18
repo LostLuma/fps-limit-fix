@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "fps_limit_fix",
+    "version": "${version}",
+    "name": "FPS Limit Fix",
+    "description": "Fixes the Balanced and Power Saver frame rate limits.",
+    "authors": [
+        "LostLuma"
+    ],
+    "contact": {
+        "email": "lilly@lostluma.net",
+        "homepage": "https://lostluma.net"
+    },
+    "license": "MIT",
+    "environment": "client",
+    "depends": {
+        "fabricloader": ">=0.16.7",
+        "minecraft": "=1.0.0-beta.7.3"
+    },
+    "recommends": {
+        "quilt_loader": "*"
+    },
+    "mixins": [
+        "fps_limit_fix.mixins.json"
+    ]
+}

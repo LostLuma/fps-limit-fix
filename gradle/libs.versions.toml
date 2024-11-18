@@ -1,0 +1,13 @@
+[versions]
+minecraft = "b1.7.3"
+fabric_loader = "0.16.7"
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+fabric_loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric_loader" }
+
+[bundles]
+
+[plugins]
+ploceus = { id = "ploceus", version = "1.8.3" }
+fabric_loom = { id = "fabric-loom", version = "1.8.9" }
